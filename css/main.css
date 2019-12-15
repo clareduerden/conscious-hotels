@@ -48,9 +48,17 @@ p {
   border: none;
   cursor: pointer;
 }
-.btn-light {
+.bg-light {
   background: #f4f4f4;
   color: #333;
+}
+.bg-primary {
+  background: #f7c08a;
+  color: #333;
+}
+.bg-dark {
+  background: #444;
+  color: #fff;
 }
 .btn:hover {
   background: #444;
@@ -62,8 +70,8 @@ p {
 .lead-text {
   font-size: 1.2em;
 }
-.bg-dark {
-  background: #444;
+.clr {
+  clear: both;
 }
 
 /* Header Styles ------------ */
@@ -129,11 +137,13 @@ p {
 #home-info .info-img {
   width: 50%;
   float: left;
-  background: url('../img/photo-1.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('../img/lounge-1.jpg');
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   /* So img takes up the whole space (and appears) */
   min-height: 100%;
+  /* border: 1px solid #f7c08a; */
 }
 #home-info .info-content {
   width: 50%;
@@ -146,4 +156,29 @@ p {
 }
 #home-info p:last-of-type {
   padding-bottom: 20px;
+}
+
+/* Homepage - Features section -------------- */
+
+#features {
+  height: 30%;
+}
+#features .box {
+  width: 33.3%;
+  float: left;
+  height: 100%;
+  padding: 50px;
+  text-align: center;
+}
+#features .box i {
+  margin-bottom: 20px;
+}
+
+/* Main-Footer ------------------- */
+
+#main-footer {
+  text-align: center;
+  background: #444;
+  color: #fff;
+  padding: 20px;
 }
