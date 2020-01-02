@@ -1,0 +1,60 @@
+/* Homepage Mobile Styling ------ */
+
+#navbar .logo {
+  float: none;
+  text-align: center;
+}
+#navbar ul,
+#navbar ul li {
+  float: none;
+}
+#navbar ul li a {
+  padding: 5px;
+  border-bottom: #444 dotted 1px;
+}
+
+#home-info {
+  min-height: 650px;
+}
+/* Don't display img on mobile devices */
+#home-info .info-img {
+  float: none;
+  display: none;
+}
+#home-info .info-content {
+  float: none;
+  width: 100%;
+}
+
+/* Remove float from boxes */
+
+.box {
+  float: none;
+  width: 100%;
+}
+
+/* ABOUT page mobile styles ------------- */
+
+#about-info .info,
+#about-info .about-img {
+  float: none;
+  width: 100%;
+}
+#about-info .about-img img {
+  margin-top: 30px;
+}
+
+#about-info .lg-heading {
+  text-align: center;
+}
+
+/*  CONTACT page mobile styles -----------*/
+
+#contact-info .box {
+  border-bottom: 1px dotted #555;
+}
+
+#contact-form input,
+#contact-form textarea {
+  width: 100%;
+}

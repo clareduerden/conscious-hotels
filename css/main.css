@@ -103,7 +103,7 @@ p {
 #navbar a {
   color: #fff;
 }
-#navbar h1 {
+#navbar .logo {
   float: left;
   padding-top: 15px;
 }
@@ -136,19 +136,21 @@ p {
   background-repeat: no-repeat;
   background-position: center;
   position: relative;
-  height: 50%;
   margin: auto;
   color: #fff;
   text-align: center;
-  padding-top: 120px;
+  padding: 120px 0;
 }
 #hero-area p {
   padding: 0 50px 20px 50px;
 }
 
 /* Homepage - home-img section --------------- */
+
 #home-info {
-  height: 40%;
+  height: 400px;
+  min-height: 40%;
+  overflow: auto;
 }
 #home-info .info-img {
   width: 50%;
@@ -159,7 +161,6 @@ p {
   background-position: center;
   /* So img takes up the whole space (and appears) */
   min-height: 100%;
-  /* border: 1px solid #f7c08a; */
 }
 #home-info .info-content {
   width: 50%;
@@ -168,7 +169,7 @@ p {
   height: 100%;
   color: white;
   padding: 50px;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 #home-info p:last-of-type {
   padding-bottom: 20px;
@@ -176,13 +177,9 @@ p {
 
 /* Homepage - Features section -------------- */
 
-#features {
-  height: 30%;
-}
 #features .box i {
   margin-bottom: 20px;
 }
-
 
 /* About Page - About info section ---------- */
 
@@ -218,7 +215,7 @@ p {
   width: 80%;
   margin: 0 auto;
   margin-bottom: 20px;
-  overflow: auto;
+  /* overflow: auto; */
   /* Adds opacity to the whole, div and it's contents - 1 is opaque */
   opacity: 0.9;
 }
